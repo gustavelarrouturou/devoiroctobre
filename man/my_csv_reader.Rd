@@ -7,7 +7,7 @@
 my_csv_reader(folder = getwd())
 }
 \arguments{
-\item{x}{un dossier}
+\item{folder}{un dossier}
 }
 \value{
 (ouvre le fichier)

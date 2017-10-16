@@ -7,9 +7,11 @@
 save_as_csv(dataset, filename, row.names = FALSE, ...)
 }
 \arguments{
-\item{x}{un jeu de données, ou dataset}
+\item{dataset}{un jeu de données}
 
-\item{y}{un nom de fichier}
+\item{filename}{un nom de fichier}
+
+\item{row.names}{des noms de lignes}
 }
 \description{
 Cette fonction enregistre un jeu de données au format csv

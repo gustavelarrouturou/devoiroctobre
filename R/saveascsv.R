@@ -1,7 +1,8 @@
 #' Save_as_csv
 #' @description Cette fonction enregistre un jeu de données au format csv
-#' @param x un jeu de données, ou dataset
-#' @param y un nom de fichier
+#' @param dataset un jeu de données
+#' @param filename un nom de fichier
+#' @param row.names des noms de lignes
 #' @import assertthat
 #' @importFrom utils write.csv2
 #' @examples

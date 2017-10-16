@@ -1,7 +1,7 @@
 #' my_csv_reader
 #'
 #' Lit des fichiers au format ".csv"
-#' @param x un dossier
+#' @param folder un dossier
 #' @return (ouvre le fichier)
 #' @import assertthat
 #' @examples

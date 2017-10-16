@@ -7,6 +7,6 @@
 #' }
 #' @export
 
-print.pokemon <- function(x) {
+print_pokemon <- function(x) {
   cat("This is a pokemon and his name is", x, "./n")
 }

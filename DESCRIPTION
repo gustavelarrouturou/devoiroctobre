@@ -1,19 +1,22 @@
 Package: devoirseizeoct
 Type: Package
-Title: Résumé de toutes les fonctions vues en cours
+Title:  Compilation des fonctions
 Version: 0.1.0
 Author: Gustave Larrouturou
 Maintainer: Gustave Larrouturou <gustavelarrouturou@gmail.com>
-Description: Rien à ajouter
+Description: Ce package compile toutes les fonctions vues en cours.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 Imports: magrittr,
+    ggplot2,
     stats,
     tidyr,
-    ggplot2,
-    readxl
+    readxl,
+    prenoms,
+    assertthat,
+    lubridate
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
